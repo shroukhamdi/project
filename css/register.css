@@ -1,0 +1,61 @@
+header{
+    height: 90px;
+    background-color: rgb(167, 166, 166);
+    padding: 20px 0px;
+   
+}
+
+.header-content .brand{
+    font-size: 32px;
+     text-decoration: none;  
+    color: blue;
+}
+form{
+    background-color: rgb(228, 225, 225);
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin: auto;
+}
+
+form label{
+   display: flex;
+   margin-top: 60px;
+   font-size: 18px;
+   margin-left: 20px;
+   
+}
+form input{
+    width: 35%;
+    padding: 7px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+input[type="button"]{
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: blue;   
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.i{
+    
+    flex-direction: row;
+    height: 40px;
+    margin-left: 450px;
+    margin-top: -65px;
+    width: 115%;
+}
+.i-1{
+    display: flex;
+    flex-direction: column;
+ }   
+.i .last{
+   margin-top:-35px;
+   
+  
+ }
+ 

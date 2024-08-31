@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible " content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        
+        <link rel="stylesheet" href="css/all.css"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/cartsproducts.css"> 
+         </head>
+         <body>
+            <header>
+                <div class="container">
+            
+                    <div class="header-content">
+                        <a href="index.html" class="brand">Online Shopping</a>
+                        <nav>
+                            <ul id="links">
+                                <li><a href="login.html">Login</a></li>
+                             
+                            </ul>
+                            
+                        </nav>
+                    </div>
+                </div>
+            </header>
+<!-- ///////////////////////////////////////////////// -->
+<section class="home">
+    <div class="container">
+     <div class="products">
+
+        
+         <div class="products_item-0">
+            <div class="products_img" >
+                <img class="products_item_img" src="images/t-shirt.jpg" alt="" >
+            </div>
+             <div class="products_item_desc">
+                 <h2 >Product: T-shirt </h2>
+                 <p style="font-weight: bold;">Price: 80$</p>
+                 <span style="font-weight: bold;">Category: fashion</span>
+             </div>
+             <div class="products_item_action">
+                <div class="products-icon" style="margin-top: 20px; margin-left: 220px;">
+                    <h3 class="link-1" >5</h3> 
+                    
+                <i class="fas fa-plus" onclick="addToPrice()" style="margin: 10px; cursor: pointer;"></i>    
+                    <i class="fas fa-minus" style="margin: 10px;"></i>
+                     
+                    <!-- style="margin-top: 20px; margin-left: 300px;" -->
+                </div>
+                
+                <button class="add_to_cart">Remove</button>
+                
+
+             </div>
+         </div>
+
+         <div class="products_item-1">
+            <div class="products_img">
+                <img class="products_item_img" src="images/arepods.jpg" alt="">
+            </div>
+             <div class="products_item_desc">
+                 <h2 >Product: earpods </h2>
+                 <p style="font-weight: bold;">Price: 150$</p>
+                 <span style="font-weight: bold;">Category: Phone accessories</span>
+             </div>
+             <div class="products_item_action">
+                <div class="products-icon" style="margin-top: 20px; margin-left: 220px;">
+                    <h3 class="link-1" >5</h3> 
+                    <i class="fas fa-plus" style="margin: 10px;"></i>
+                    <i class="fas fa-minus" style="margin: 10px;"></i>
+                
+               </div> 
+                <button class="add_to_cart">Remove</button>
+                
+
+             </div>
+         </div>
+
+         <div class="products_item-2">
+            <div class="products_img">
+                <img class="products_item_img" src="images/jacket.jpg" alt="">
+            </div>
+             <div class="products_item_desc">
+                 <h2 >Jacket </h2>
+                 <p style="font-weight: bold;">Price: 120$</p>
+                 <span style="font-weight: bold;">Category: fashion</span>
+             </div>
+             <div class="products_item_action">
+                <div class="products-icon"style="margin-top: 20px; margin-left: 220px;">
+                    <h3 class="link-1" >5</h3> 
+                    <i class="fas fa-plus icon" style="margin: 10px;"></i>
+                    <i class="fas fa-minus" style="margin: 10px;"></i>
+                
+                </div>
+                
+                <button class="add_to_cart">Remove</button>
+                
+                
+             </div>
+        </div>
+
+
+        <div class="carts_products">
+            <div></div>
+            <h3 class="carts-title" style="margin-left: 300px;">Price Total:800$</h3>
+        </div>
+
+
+
+
+    </div> 
+                      
+</div>
+</section>
+<hr>
+
+<div class="special-container">
+    <div class="special">
+    <h2 class="special-title">Favourite</h2>
+    <p class="special-p"></p>
+    </div><!--special-->
+    </div><!-- special-container -->
+<br>
+<br>
+
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+  </div>
+  <!-- The slideshow/carousel -->
+  
+   <div class="carousel-inner">
+    
+       <div class="carousel-item active">
+  
+           
+  
+           <div class="products-11">
+               <div class="products_item-5">
+           <div class="products_img-1">
+               <img class="products_item_img-1" src="images/addidas bottle.jpg" alt="">
+           </div>
+            <div class="products_item_desc-1" >
+                <h2 style="font-size: 20px;">Adidas bottle </h2>
+             
+                <span style="font-weight: bold;">Category: Sport</span>
+            </div>
+            <div class="products_item_action-1">
+               <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                <i class="fas fa-heart fav-1"></i>
+       
+            </div>
+        </div>
+       
+        <div class="products_item-5">
+           <div class="products_img-1">
+               <img class="products_item_img-1" src="images/glasses.jpg" alt="">
+           </div>
+            <div class="products_item_desc-1">
+                <h2 style="font-size: 20px;">Product: Glasses </h2>
+               
+                <span style="font-weight: bold;">Category: Men accessories</span>
+            </div>
+            <div class="products_item_action-1">
+               <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                <i class="fas fa-heart fav-1"></i>
+       
+            </div>
+        </div>
+       
+        <div class="products_item-5">
+           <div class="products_img-1">
+               <img class="products_item_img-1" src="images/cap.jpg" alt="">
+           </div>
+            <div class="products_item_desc-1">
+                <h2 style="font-size: 20px;">Product: Cap </h2>
+               
+                <span style="font-weight: bold;">Category: Men accessories</span>
+            </div>
+            <div class="products_item_action-1">
+               <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                <i class="fas fa-heart fav-1"></i>
+       
+            </div>
+        </div>
+       
+    
+           <div class="products_item-5">
+               <div class="products_img-1">
+                   <img class="products_item_img-1" src="images/bag addidas.jpg" alt="">
+               </div>
+                <div class="products_item_desc-1">
+                    <h2 style="font-size: 20px;">Product: Bag adidas </h2>
+                   
+                    <span style="font-weight: bold;">Category: Bags</span>
+                </div>
+                <div class="products_item_action-1">
+                   <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                    <i class="fas fa-heart fav-1"></i>
+           
+                </div>
+            </div>
+       
+            <div class="products_item-5">
+               <div class="products_img-1">
+                   <img class="products_item_img-1" src="images/chose.jpg" alt="">
+               </div>
+                <div class="products_item_desc-1">
+                    <h2 style="font-size: 20px;">Product: Shoes adidas </h2>
+                 
+                    <span style="font-weight: bold;">Category: sport</span>
+                </div>
+                <div class="products_item_action-1">
+                   <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                    <i class="fas fa-heart fav-1"></i>
+           
+                </div>
+            </div>
+       
+            <div class="products_item-5">
+               <div class="products_img-1">
+                   <img class="products_item_img-1" src="images/bag.jpg" alt="">
+               </div>
+                <div class="products_item_desc-1">
+                    <h2 style="font-size: 20px;">Product: Bag </h2>
+                    
+                    <span style="font-weight: bold;">Category: fashion</span>
+                </div>
+                <div class="products_item_action-1">
+                   <button class="add_to_cart-1"><a href="register.html">Add to cart</a></button>
+                    <i class="fas fa-heart fav-1"></i>
+           
+                </div>
+            </div>
+       
+            
+            
+
+            
+       
+       
+       </div>
+  
+  
+  
+  
+  
+  
+  
+       </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+   <span class="carousel-control-next-icon"></span>
+  </button>
+  
+  
+  
+  
+   </div>
+       
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/cartsproducts.js"></script> 
+          </body>     
+      </html>
